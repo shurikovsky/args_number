@@ -4,7 +4,6 @@ const { stdin: input, stdout: output } = require('node:process');
 
 function equalityNumber(num) {
   rl.question('', (answerNumber) => {
-    console.log("мы в коллбеке");
     if (answerNumber === num) {
         console.log(`отгадано число ${num}`)
     } else if (answerNumber < num) {
